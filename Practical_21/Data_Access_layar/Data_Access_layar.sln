@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_Access_layar", "Data_Access_layar\Data_Access_layar.csproj", "{641D86CA-A128-405F-9B88-DD7E94893260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practical_21", "Practical_21\Practical_21.csproj", "{64D0023C-49EB-4591-8343-BF67D9A4A71B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{641D86CA-A128-405F-9B88-DD7E94893260} = {641D86CA-A128-405F-9B88-DD7E94893260}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{641D86CA-A128-405F-9B88-DD7E94893260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641D86CA-A128-405F-9B88-DD7E94893260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641D86CA-A128-405F-9B88-DD7E94893260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641D86CA-A128-405F-9B88-DD7E94893260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D0023C-49EB-4591-8343-BF67D9A4A71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D0023C-49EB-4591-8343-BF67D9A4A71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D0023C-49EB-4591-8343-BF67D9A4A71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D0023C-49EB-4591-8343-BF67D9A4A71B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52316808-324F-4543-A34A-27AB5A1D5A9D}
+	EndGlobalSection
+EndGlobal
